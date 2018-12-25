@@ -2027,7 +2027,7 @@
 					"-DUDPRELAY_LOCAL",
 					"-DMODULE_LOCAL",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.ShadowPath;
+				PRODUCT_BUNDLE_IDENTIFIER = io.mystery.dev.shadow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2063,7 +2063,7 @@
 					"-DUDPRELAY_LOCAL",
 					"-DMODULE_LOCAL",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.ShadowPath;
+				PRODUCT_BUNDLE_IDENTIFIER = io.mystery.dev.shadow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
