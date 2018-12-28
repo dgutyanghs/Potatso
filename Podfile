@@ -23,6 +23,7 @@ def model
 end
 
 target "Potatso" do
+    pod 'Crashlytics'
     pod 'Aspects', :path => "./Library/Aspects/"
     pod 'Cartography'
     pod 'AsyncSwift'
