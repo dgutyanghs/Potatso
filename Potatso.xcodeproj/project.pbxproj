@@ -158,6 +158,10 @@
 		9CF6A34A21D22DED00AF4C3B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF6A34921D22DED00AF4C3B /* NetworkExtension.framework */; };
 		9CF6A34B21D22E4800AF4C3B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF6A34921D22DED00AF4C3B /* NetworkExtension.framework */; };
 		9CF6A34C21D22E6A00AF4C3B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF6A34921D22DED00AF4C3B /* NetworkExtension.framework */; };
+		9CF6A3F221D7229900AF4C3B /* LibYAML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF6A3ED21D721F600AF4C3B /* LibYAML.framework */; };
+		9CF6A3F321D7229900AF4C3B /* LibYAML.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF6A3ED21D721F600AF4C3B /* LibYAML.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9CF6A3F421D7229C00AF4C3B /* YAML_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF6A3EC21D721F100AF4C3B /* YAML_Framework.framework */; };
+		9CF6A3F521D7229C00AF4C3B /* YAML_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF6A3EC21D721F100AF4C3B /* YAML_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A19186A9C01BD2F3698C660B /* Pods_PacketTunnel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F418F761ED5A1D6D44F6B978 /* Pods_PacketTunnel.framework */; };
 		B803A6961D0165EA003EA9AA /* CloudViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803A6951D0165EA003EA9AA /* CloudViewController.swift */; };
 		B803A6981D02B768003EA9AA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B803A6971D02B768003EA9AA /* API.swift */; };
@@ -325,7 +329,9 @@
 				9BC6FFF21CB28B4B00E5EA61 /* PotatsoModel.framework in Embed Frameworks */,
 				9B9B15C51C21595B000B6541 /* PotatsoLibrary.framework in Embed Frameworks */,
 				9BC600251CB2921C00E5EA61 /* PotatsoBase.framework in Embed Frameworks */,
+				9CF6A3F521D7229C00AF4C3B /* YAML_Framework.framework in Embed Frameworks */,
 				9BDA62631CAE2576007F2581 /* PacketProcessor.framework in Embed Frameworks */,
+				9CF6A3F321D7229900AF4C3B /* LibYAML.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -850,6 +856,12 @@
 		9BF3034A1CCA1B060096588E /* BaseEmptyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseEmptyView.swift; sourceTree = "<group>"; };
 		9BF3034C1CCA20D80096588E /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
 		9CF6A34921D22DED00AF4C3B /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		9CF6A3DC21D62CD500AF4C3B /* YAML_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YAML_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF6A3DE21D62CDF00AF4C3B /* LibYAML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibYAML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF6A3E221D6318800AF4C3B /* YAML_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YAML_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF6A3E621D631CB00AF4C3B /* LibYAML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LibYAML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF6A3EC21D721F100AF4C3B /* YAML_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YAML_Framework.framework; sourceTree = "<group>"; };
+		9CF6A3ED21D721F600AF4C3B /* LibYAML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LibYAML.framework; sourceTree = "<group>"; };
 		A8756F00E05A3B83B41D4315 /* Pods-Potatso.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Potatso.debug.xcconfig"; path = "Target Support Files/Pods-Potatso/Pods-Potatso.debug.xcconfig"; sourceTree = "<group>"; };
 		B4A7BF23B2FD5F5F35EC36C2 /* Pods-TodayWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayWidget.debug.xcconfig"; path = "Target Support Files/Pods-TodayWidget/Pods-TodayWidget.debug.xcconfig"; sourceTree = "<group>"; };
 		B803A6951D0165EA003EA9AA /* CloudViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudViewController.swift; sourceTree = "<group>"; };
@@ -943,6 +955,7 @@
 			files = (
 				B86B08ED1D17FB9B00613014 /* ShadowPath.framework in Frameworks */,
 				9CF6A34A21D22DED00AF4C3B /* NetworkExtension.framework in Frameworks */,
+				9CF6A3F421D7229C00AF4C3B /* YAML_Framework.framework in Frameworks */,
 				9BC600241CB2921C00E5EA61 /* PotatsoBase.framework in Frameworks */,
 				9BDA62621CAE2576007F2581 /* PacketProcessor.framework in Frameworks */,
 				1ED659061E05E88C00D4BEE3 /* GameKit.framework in Frameworks */,
@@ -953,6 +966,7 @@
 				B8822CD41D2B81C400AD252C /* libssl.a in Frameworks */,
 				1ED66DEE1E05A72300638808 /* StoreKit.framework in Frameworks */,
 				D9840AAFF707D5FEE15E786F /* Pods_Potatso.framework in Frameworks */,
+				9CF6A3F221D7229900AF4C3B /* LibYAML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,6 +1053,8 @@
 		9B0CFA021C1C0B1A007BD7C6 = {
 			isa = PBXGroup;
 			children = (
+				9CF6A3ED21D721F600AF4C3B /* LibYAML.framework */,
+				9CF6A3EC21D721F100AF4C3B /* YAML_Framework.framework */,
 				9B0CFA0D1C1C0B1B007BD7C6 /* Potatso */,
 				9B0CFA221C1C0B1B007BD7C6 /* PotatsoTests */,
 				9B8705FB1C1D788F00651424 /* PacketTunnel */,
@@ -2037,6 +2053,10 @@
 		C8B2149E8757C44C469576D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9CF6A3E621D631CB00AF4C3B /* LibYAML.framework */,
+				9CF6A3E221D6318800AF4C3B /* YAML_Framework.framework */,
+				9CF6A3DE21D62CDF00AF4C3B /* LibYAML.framework */,
+				9CF6A3DC21D62CD500AF4C3B /* YAML_Framework.framework */,
 				9CF6A34921D22DED00AF4C3B /* NetworkExtension.framework */,
 				1ED659051E05E88C00D4BEE3 /* GameKit.framework */,
 				1ED659001E05C73100D4BEE3 /* CloudKit.framework */,
@@ -2395,18 +2415,21 @@
 					};
 					9B9B15BC1C21595B000B6541 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 236Q8XURWN;
+						DevelopmentTeam = 7S6SR2S85N;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					9BC6001C1CB2921C00E5EA61 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 236Q8XURWN;
+						DevelopmentTeam = 7S6SR2S85N;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					9BC6FFE91CB28B4B00E5EA61 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 236Q8XURWN;
+						DevelopmentTeam = 7S6SR2S85N;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					9BDA625A1CAE2576007F2581 = {
 						CreatedOnToolsVersion = 7.3;
@@ -3572,8 +3595,10 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 121;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7S6SR2S85N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 121;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3588,6 +3613,7 @@
 				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.PotatsoLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -3603,10 +3629,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 121;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7S6SR2S85N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 121;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3621,6 +3649,7 @@
 				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.PotatsoLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3637,9 +3666,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 121;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7S6SR2S85N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 121;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3649,6 +3680,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.PotatsoBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -3664,10 +3696,12 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 121;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7S6SR2S85N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 121;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3677,6 +3711,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.PotatsoBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3694,9 +3729,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 121;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7S6SR2S85N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 121;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3707,6 +3744,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.PotatsoModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -3723,10 +3761,12 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 121;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7S6SR2S85N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 121;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -3737,6 +3777,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.wasin.potatso.PotatsoModel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				VERSIONING_SYSTEM = "apple-generic";
