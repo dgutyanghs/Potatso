@@ -1,3 +1,14 @@
+**本项目** 
+compile OK 真机能正常运行。
+Xcode10.1编译环境。
+---
+*关于本项目的注意事项，请阅读如下文档：*
+
+
+
+
+
+
 [![donate button](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat)](https://github.com/haxpor/donate)
 
 ![GPLv3 License](https://img.shields.io/badge/License-GPLv3-blue.svg)
